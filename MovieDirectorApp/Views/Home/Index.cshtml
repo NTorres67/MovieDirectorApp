@@ -3,27 +3,39 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <h1 id="main-index">Let's Watch a Movie!</h1>
+    <p class="lead">See What's Hot and What's Not!.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Movies</h2>
-        <p>
-            See a List of Movies.
-        </p>
-        <p><a class="btn btn-default" href="~/Movies/Index">Movies &raquo;</a></p>
+        <div class="thumbnail" id="movies">
+            <img src="~/images/Main_Index/admission-2974645_1920.jpg" class="img-thumbnail" alt="Thumb1" width="360" height="147" />
+            <h2>Movies</h2>
+            <p>See a List of Movies.</p>
+            <p><a class="btn btn-default" href="~/Movies/Index">Movies &raquo;</a></p>
+        </div>
+        
     </div>
     <div class="col-md-4">
-        <h2>Directors</h2>
-        <p>See a List of Directors</p>
-        <p><a class="btn btn-default" href="~/Directors/Index">Directors &raquo;</a></p>
+        <div class="thumbnail" id="directors">
+            <img src="~/images/Main_Index/rsz_clapper-board-152088_1280.png" class="img-thumbnail" alt="Thumb2" width="360" height="147" />
+            <h2>Directors</h2>
+            <p>See a List of Directors</p>
+            <p><a class="btn btn-default" href="~/Directors/Index">Directors &raquo;</a></p>
+
+
+        </div>
+        
     </div>
     <div class="col-md-4">
-        <h2>Genres</h2>
-        <p>See a List of Genres.</p>
-        <p><a class="btn btn-default" href="~/Genres/Index">Genres &raquo;</a></p>
+        <div class="thumbnail" id="genres">
+            <img src="~/images/Main_Index/5803926-movie-poster-of-film-genres-vintage-background.jpg" class="img-thumbnail" width="360" height="147"/>
+            <h2>Genres</h2>
+            <p>See a List of Genres.</p>
+            <p><a class="btn btn-default" href="~/Genres/Index">Genres &raquo;</a></p>
+        </div>
+        
     </div>
 </div>
