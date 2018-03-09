@@ -120,3 +120,9 @@ a {
 div.row.movie-details {
     background-color: #ffffff;
 }
+
+div.row.movie-details {
+    background-image: linear-gradient(to right bottom, #a8eb12, #00c376, #008fa0, #00578e, #06224e);
+    color:#ffffff;
+
+}
